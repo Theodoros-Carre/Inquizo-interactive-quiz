@@ -1,1 +1,118 @@
-# Inquizo-interactive-quiz
+# 🧠 Inquizo - Interactive Quiz Game
+
+Welcome to **Inquizo**, a stylish and engaging quiz game built with PyQt5. Test your knowledge across multiple themes and difficulties, and challenge yourself with the fast-paced Time Rush mode.
+
+---
+
+## 🎮 Features
+
+- **Multiple Game Modes**
+  - 🎯 **Classic Mode**: Choose a theme and difficulty. Answer a fixed set of questions with instant feedback.
+  - ⚡ **Time Rush Mode**: Beat the clock! You have 40 seconds to answer as many questions as you can.
+
+- **Themes & Difficulties**
+  - Themes: Music, Bodybuilding, General Knowledge
+  - Difficulties: Easy, Medium, Hard
+
+- **Feedback System**
+  - Instant feedback after each answer (Correct ✅ or Incorrect ❌)
+  - Tracks your progress and displays your final score
+
+- **Responsive UI**
+  - Clean interface with stacked widgets
+  - Smooth transitions between game states
+  - Optimized for readability and clarity
+
+---
+
+## 🛠️ Requirements
+
+- Python 3.x
+- PyQt5
+
+Install requirements with:
+
+```bash
+pip install pyqt5
+```
+
+---
+
+## 🚀 Getting Started
+
+1. **Clone the repository or download the source code**
+
+2. **Prepare your question file**  
+   - Format: JSON (e.g., `questions180.json`)
+   - Structure:
+     ```json
+     {
+       "music": {
+         "easy": [
+           {
+             "question": "Who is known as the King of Pop?",
+             "choices": ["Elvis Presley", "Michael Jackson", "Prince", "Freddie Mercury"],
+             "answer": "Michael Jackson"
+           },
+           ...
+         ],
+         ...
+       },
+       ...
+     }
+     ```
+
+3. **Run the app**
+
+```bash
+python your_script_name.py
+```
+
+---
+
+## 📂 Project Structure
+
+```
+Inquizo/
+├── Brain_logo.png              # Logo for title screen
+├── questions180.json           # Quiz data (can be replaced or expanded)
+├── main.py                     # Application entry point
+└── README.md                   # You're reading this!
+```
+
+---
+
+## ✨ Customization
+
+- ⏱️ Change Time Rush duration:  
+  Edit `self.time_left = 40` in the `TimeRushQuizPage` class.
+
+- 🎨 Modify button or background colors:  
+  Scroll to the `app.setStyleSheet(...)` section at the bottom of the script.
+
+- 🔤 Change text or labels:  
+  All UI strings are defined within class initializations like `TitlePage`, `GameModePage`, etc.
+
+---
+
+## 📸 Screenshots (Optional)
+
+You can add screenshots here to show off the UI.  
+For example:
+```
+📌 Title Page         📌 Game Mode Selector        📌 Quiz Interface
+[logo]               [Classic / Time Rush]        [Question + Choices + Feedback]
+```
+
+---
+
+## 🧠 Author
+
+Made with 💙 by [Your Name]  
+For learning, testing, and having fun!
+
+---
+
+## 📃 License
+
+You can add a license here if you'd like (MIT, GPL, etc.).
