@@ -95,17 +95,6 @@ Inquizo/
 
 ---
 
-## 📸 Screenshots (Optional)
-
-You can add screenshots here to show off the UI.  
-For example:
-```
-📌 Title Page         📌 Game Mode Selector        📌 Quiz Interface
-[logo]               [Classic / Time Rush]        [Question + Choices + Feedback]
-```
-
----
-
 ## 🧠 Author
 
 Made with 💙 by [Your Name]  
