@@ -42,31 +42,9 @@ pip install pyqt5
 
 1. **Clone the repository or download the source code**
 
-2. **Prepare your question file**  
-   - Format: JSON (e.g., `questions180.json`)
-   - Structure:
-     ```json
-     {
-       "music": {
-         "easy": [
-           {
-             "question": "Who is known as the King of Pop?",
-             "choices": ["Elvis Presley", "Michael Jackson", "Prince", "Freddie Mercury"],
-             "answer": "Michael Jackson"
-           },
-           ...
-         ],
-         ...
-       },
-       ...
-     }
-     ```
+2. **Open file in python editor of choice**  
 
 3. **Run the app**
-
-```bash
-python your_script_name.py
-```
 
 ---
 
@@ -92,6 +70,10 @@ Inquizo/
 
 - 🔤 Change text or labels:  
   All UI strings are defined within class initializations like `TitlePage`, `GameModePage`, etc.
+
+- 📂 Change your question file:
+    - Format: JSON (e.g., `questions180.json`)
+    - Edit `with open("questions180.json", "r")` in the `TimeRushQuizPage` and `QuizPage` class
 
 ---
 
