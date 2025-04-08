@@ -11,8 +11,8 @@ Welcome to **Inquizo**, a stylish and engaging quiz game built with PyQt5. Test 
   - ⚡ **Time Rush Mode**: Beat the clock! You have 40 seconds to answer as many questions as you can.
 
 - **Themes & Difficulties**
-  - Themes: Music, Bodybuilding, General Knowledge
-  - Difficulties: Easy, Medium, Hard
+  - 3 Themes: Music, Bodybuilding, General Knowledge
+  - 3 Difficulties: Easy, Medium, Hard
 
 - **Feedback System**
   - Instant feedback after each answer (Correct ✅ or Incorrect ❌)
@@ -95,13 +95,10 @@ Inquizo/
 
 ---
 
-## 🧠 Author
-
-Made with 💙 by [Your Name]  
-For learning, testing, and having fun!
+## 👥 Contributors  
+**The Team** : Thedoros CARRE, Luis RAMIREZ RAMIREZ, Yousuf HOSNY
 
 ---
 
-## 📃 License
-
-You can add a license here if you'd like (MIT, GPL, etc.).
+## 📜 License  
+This project is licensed under the **ESME License** – Free to use and modify.
