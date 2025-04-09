@@ -12,7 +12,7 @@ Welcome to **Inquizo**, a stylish and engaging quiz game built with PyQt5. Test 
 
 - **Themes & Difficulties**
   - 3 Themes: Music, Bodybuilding, General Knowledge
-  - 3 Difficulties: Easy, Medium, Hard
+  - 4 Difficulties: Easy, Medium, Hard, Impossible
 
 - **Feedback System**
   - Instant feedback after each answer (Correct ✅ or Incorrect ❌)
